@@ -1,0 +1,5499 @@
+/*!
+ * General Styles
+ */
+/*
+Custom Fonts
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext);
+/*
+Css Declaration of new font,
+this will add the font to all the project
+*/
+/*
+Import Stylesheets
+*/
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/* line 9, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 19, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+body {
+  margin: 0; }
+
+/* line 45, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 57, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 67, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 78, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+[hidden],
+template {
+  display: none; }
+
+/* line 89, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/* line 99, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* line 110, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 119, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 127, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 136, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 145, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 154, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 163, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 170, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 174, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 185, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+img {
+  border: 0; }
+
+/* line 193, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 204, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 212, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 221, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+pre {
+  overflow: auto; }
+
+/* line 232, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 256, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 266, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+button {
+  overflow: visible; }
+
+/* line 278, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/* line 293, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+button,
+html input[type="button"], input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 303, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 312, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 322, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+input {
+  line-height: normal; }
+
+/* line 335, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 347, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 356, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/* line 368, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 376, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 387, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 396, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/* line 405, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* line 416, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 422, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/* line 11, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 15, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 22, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: transparent; }
+
+/* line 27, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+/* line 48, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+a {
+  color: #008fdd;
+  text-decoration: none; }
+  /* line 53, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+  a:hover,
+  a:focus {
+    color: #005d91;
+    text-decoration: underline; }
+  /* line 58, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+  a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+
+/* line 69, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+figure {
+  margin: 0; }
+
+/* line 76, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+img {
+  vertical-align: middle; }
+
+/* line 81, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+/* line 86, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+.img-rounded {
+  border-radius: 6px; }
+
+/* line 93, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+.img-thumbnail {
+  padding: 4px;
+  line-height: 1.42857;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+  max-width: 100%;
+  height: auto; }
+
+/* line 106, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+.img-circle {
+  border-radius: 50%; }
+
+/* line 113, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eeeeee; }
+
+/* line 125, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+/* line 142, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+.sr-only-focusable:active,
+.sr-only-focusable:focus {
+  position: static;
+  width: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  clip: auto; }
+
+/* line 159, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_scaffolding.scss */
+[role="button"] {
+  cursor: pointer; }
+
+/* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit; }
+  /* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  h1 small,
+  h1 .small, h2 small,
+  h2 .small, h3 small,
+  h3 .small, h4 small,
+  h4 .small, h5 small,
+  h5 .small, h6 small,
+  h6 .small,
+  .h1 small,
+  .h1 .small, .h2 small,
+  .h2 .small, .h3 small,
+  .h3 .small, .h4 small,
+  .h4 .small, .h5 small,
+  .h5 .small, .h6 small,
+  .h6 .small {
+    font-weight: normal;
+    line-height: 1;
+    color: #777777; }
+
+/* line 26, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h1, .h1,
+h2, .h2,
+h3, .h3 {
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  /* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  h1 small,
+  h1 .small, .h1 small,
+  .h1 .small,
+  h2 small,
+  h2 .small, .h2 small,
+  .h2 .small,
+  h3 small,
+  h3 .small, .h3 small,
+  .h3 .small {
+    font-size: 65%; }
+
+/* line 37, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  /* line 42, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  h4 small,
+  h4 .small, .h4 small,
+  .h4 .small,
+  h5 small,
+  h5 .small, .h5 small,
+  .h5 .small,
+  h6 small,
+  h6 .small, .h6 small,
+  .h6 .small {
+    font-size: 75%; }
+
+/* line 47, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h1, .h1 {
+  font-size: 36px; }
+
+/* line 48, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h2, .h2 {
+  font-size: 30px; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h3, .h3 {
+  font-size: 24px; }
+
+/* line 50, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h4, .h4 {
+  font-size: 18px; }
+
+/* line 51, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h5, .h5 {
+  font-size: 14px; }
+
+/* line 52, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+h6, .h6 {
+  font-size: 12px; }
+
+/* line 58, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+p {
+  margin: 0 0 10px; }
+
+/* line 62, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.lead {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4; }
+  @media (min-width: 768px) {
+    /* line 62, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+    .lead {
+      font-size: 21px; } }
+
+/* line 79, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+small,
+.small {
+  font-size: 85%; }
+
+/* line 84, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+mark,
+.mark {
+  background-color: #fcf8e3;
+  padding: .2em; }
+
+/* line 90, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-left {
+  text-align: left; }
+
+/* line 91, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-right {
+  text-align: right; }
+
+/* line 92, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-center {
+  text-align: center; }
+
+/* line 93, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-justify {
+  text-align: justify; }
+
+/* line 94, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-nowrap {
+  white-space: nowrap; }
+
+/* line 97, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-lowercase {
+  text-transform: lowercase; }
+
+/* line 98, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-uppercase, .initialism {
+  text-transform: uppercase; }
+
+/* line 99, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-capitalize {
+  text-transform: capitalize; }
+
+/* line 102, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.text-muted {
+  color: #777777; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+.text-primary {
+  color: #008fdd; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+a.text-primary:hover,
+a.text-primary:focus {
+  color: #006eaa; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+.text-success {
+  color: #3c763d; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+a.text-success:hover,
+a.text-success:focus {
+  color: #2b542c; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+.text-info {
+  color: #31708f; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+a.text-info:hover,
+a.text-info:focus {
+  color: #245269; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+.text-warning {
+  color: #8a6d3b; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+a.text-warning:hover,
+a.text-warning:focus {
+  color: #66512c; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+.text-danger {
+  color: #a94442; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_text-emphasis.scss */
+a.text-danger:hover,
+a.text-danger:focus {
+  color: #843534; }
+
+/* line 119, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.bg-primary {
+  color: #fff; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+.bg-primary {
+  background-color: #008fdd; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+a.bg-primary:hover,
+a.bg-primary:focus {
+  background-color: #006eaa; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+.bg-success {
+  background-color: #dff0d8; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+a.bg-success:hover,
+a.bg-success:focus {
+  background-color: #c1e2b3; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+.bg-info {
+  background-color: #d9edf7; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+a.bg-info:hover,
+a.bg-info:focus {
+  background-color: #afd9ee; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+.bg-warning {
+  background-color: #fcf8e3; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+a.bg-warning:hover,
+a.bg-warning:focus {
+  background-color: #f7ecb5; }
+
+/* line 4, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+.bg-danger {
+  background-color: #f2dede; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_background-variant.scss */
+a.bg-danger:hover,
+a.bg-danger:focus {
+  background-color: #e4b9b9; }
+
+/* line 138, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eeeeee; }
+
+/* line 150, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 10px; }
+  /* line 154, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  ul ul,
+  ul ol,
+  ol ul,
+  ol ol {
+    margin-bottom: 0; }
+
+/* line 167, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.list-unstyled {
+  padding-left: 0;
+  list-style: none; }
+
+/* line 173, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  margin-left: -5px; }
+  /* line 177, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  .list-inline > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+/* line 185, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+dl {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+/* line 190, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+dt,
+dd {
+  line-height: 1.42857; }
+
+/* line 193, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+dt {
+  font-weight: bold; }
+
+/* line 196, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+dd {
+  margin-left: 0; }
+
+/* line 15, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+.dl-horizontal dd:before,
+.dl-horizontal dd:after {
+  content: " ";
+  display: table; }
+
+/* line 19, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+.dl-horizontal dd:after {
+  clear: both; }
+
+@media (min-width: 768px) {
+  /* line 211, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  .dl-horizontal dt {
+    float: left;
+    width: 160px;
+    clear: left;
+    text-align: right;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  /* line 218, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  .dl-horizontal dd {
+    margin-left: 180px; } }
+
+/* line 231, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #777777; }
+
+/* line 235, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.initialism {
+  font-size: 90%; }
+
+/* line 241, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+blockquote {
+  padding: 10px 20px;
+  margin: 0 0 20px;
+  font-size: 17.5px;
+  border-left: 5px solid #eeeeee; }
+  /* line 250, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  blockquote p:last-child,
+  blockquote ul:last-child,
+  blockquote ol:last-child {
+    margin-bottom: 0; }
+  /* line 259, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  blockquote footer,
+  blockquote small,
+  blockquote .small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857;
+    color: #777777; }
+    /* line 265, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+    blockquote footer:before,
+    blockquote small:before,
+    blockquote .small:before {
+      content: '\2014 \00A0'; }
+
+/* line 275, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #eeeeee;
+  border-left: 0;
+  text-align: right; }
+  /* line 286, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  .blockquote-reverse footer:before,
+  .blockquote-reverse small:before,
+  .blockquote-reverse .small:before,
+  blockquote.pull-right footer:before,
+  blockquote.pull-right small:before,
+  blockquote.pull-right .small:before {
+    content: ''; }
+  /* line 287, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+  .blockquote-reverse footer:after,
+  .blockquote-reverse small:after,
+  .blockquote-reverse .small:after,
+  blockquote.pull-right footer:after,
+  blockquote.pull-right small:after,
+  blockquote.pull-right .small:after {
+    content: '\00A0 \2014'; }
+
+/* line 294, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_type.scss */
+address {
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 1.42857; }
+
+/* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_grid.scss */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  /* line 15, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+  .container:before,
+  .container:after {
+    content: " ";
+    display: table; }
+  /* line 19, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+  .container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_grid.scss */
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_grid.scss */
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_grid.scss */
+    .container {
+      width: 1170px; } }
+
+/* line 30, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_grid.scss */
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  /* line 15, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+  .container-fluid:before,
+  .container-fluid:after {
+    content: " ";
+    display: table; }
+  /* line 19, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+  .container-fluid:after {
+    clear: both; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_grid.scss */
+.row {
+  margin-left: -15px;
+  margin-right: -15px; }
+  /* line 15, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+  .row:before,
+  .row:after {
+    content: " ";
+    display: table; }
+  /* line 19, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+  .row:after {
+    clear: both; }
+
+/* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 26, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-1 {
+  width: 8.33333%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-2 {
+  width: 16.66667%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-3 {
+  width: 25%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-4 {
+  width: 33.33333%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-5 {
+  width: 41.66667%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-6 {
+  width: 50%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-7 {
+  width: 58.33333%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-8 {
+  width: 66.66667%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-9 {
+  width: 75%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-10 {
+  width: 83.33333%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-11 {
+  width: 91.66667%; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-12 {
+  width: 100%; }
+
+/* line 54, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-0 {
+  right: auto; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-1 {
+  right: 8.33333%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-2 {
+  right: 16.66667%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-3 {
+  right: 25%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-4 {
+  right: 33.33333%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-5 {
+  right: 41.66667%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-6 {
+  right: 50%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-7 {
+  right: 58.33333%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-8 {
+  right: 66.66667%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-9 {
+  right: 75%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-10 {
+  right: 83.33333%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-11 {
+  right: 91.66667%; }
+
+/* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-pull-12 {
+  right: 100%; }
+
+/* line 44, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-0 {
+  left: auto; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-1 {
+  left: 8.33333%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-2 {
+  left: 16.66667%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-3 {
+  left: 25%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-4 {
+  left: 33.33333%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-5 {
+  left: 41.66667%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-6 {
+  left: 50%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-7 {
+  left: 58.33333%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-8 {
+  left: 66.66667%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-9 {
+  left: 75%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-10 {
+  left: 83.33333%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-11 {
+  left: 91.66667%; }
+
+/* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-push-12 {
+  left: 100%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-0 {
+  margin-left: 0%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-1 {
+  margin-left: 8.33333%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-2 {
+  margin-left: 16.66667%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-3 {
+  margin-left: 25%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-4 {
+  margin-left: 33.33333%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-5 {
+  margin-left: 41.66667%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-6 {
+  margin-left: 50%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-7 {
+  margin-left: 58.33333%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-8 {
+  margin-left: 66.66667%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-9 {
+  margin-left: 75%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-10 {
+  margin-left: 83.33333%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-11 {
+  margin-left: 91.66667%; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+.col-xs-offset-12 {
+  margin-left: 100%; }
+
+@media (min-width: 768px) {
+  /* line 26, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-1 {
+    width: 8.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-2 {
+    width: 16.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-3 {
+    width: 25%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-4 {
+    width: 33.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-5 {
+    width: 41.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-6 {
+    width: 50%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-7 {
+    width: 58.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-8 {
+    width: 66.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-9 {
+    width: 75%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-10 {
+    width: 83.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-11 {
+    width: 91.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-12 {
+    width: 100%; }
+  /* line 54, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-0 {
+    right: auto; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-1 {
+    right: 8.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-2 {
+    right: 16.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-3 {
+    right: 25%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-4 {
+    right: 33.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-5 {
+    right: 41.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-6 {
+    right: 50%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-7 {
+    right: 58.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-8 {
+    right: 66.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-9 {
+    right: 75%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-10 {
+    right: 83.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-11 {
+    right: 91.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-pull-12 {
+    right: 100%; }
+  /* line 44, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-0 {
+    left: auto; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-1 {
+    left: 8.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-2 {
+    left: 16.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-3 {
+    left: 25%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-4 {
+    left: 33.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-5 {
+    left: 41.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-6 {
+    left: 50%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-7 {
+    left: 58.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-8 {
+    left: 66.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-9 {
+    left: 75%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-10 {
+    left: 83.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-11 {
+    left: 91.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-push-12 {
+    left: 100%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-0 {
+    margin-left: 0%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-3 {
+    margin-left: 25%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-6 {
+    margin-left: 50%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-9 {
+    margin-left: 75%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-sm-offset-12 {
+    margin-left: 100%; } }
+
+@media (min-width: 992px) {
+  /* line 26, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-1 {
+    width: 8.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-2 {
+    width: 16.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-3 {
+    width: 25%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-4 {
+    width: 33.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-5 {
+    width: 41.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-6 {
+    width: 50%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-7 {
+    width: 58.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-8 {
+    width: 66.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-9 {
+    width: 75%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-10 {
+    width: 83.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-11 {
+    width: 91.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-12 {
+    width: 100%; }
+  /* line 54, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-0 {
+    right: auto; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-1 {
+    right: 8.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-2 {
+    right: 16.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-3 {
+    right: 25%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-4 {
+    right: 33.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-5 {
+    right: 41.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-6 {
+    right: 50%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-7 {
+    right: 58.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-8 {
+    right: 66.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-9 {
+    right: 75%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-10 {
+    right: 83.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-11 {
+    right: 91.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-pull-12 {
+    right: 100%; }
+  /* line 44, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-0 {
+    left: auto; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-1 {
+    left: 8.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-2 {
+    left: 16.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-3 {
+    left: 25%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-4 {
+    left: 33.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-5 {
+    left: 41.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-6 {
+    left: 50%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-7 {
+    left: 58.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-8 {
+    left: 66.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-9 {
+    left: 75%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-10 {
+    left: 83.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-11 {
+    left: 91.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-push-12 {
+    left: 100%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-0 {
+    margin-left: 0%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-3 {
+    margin-left: 25%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-6 {
+    margin-left: 50%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-9 {
+    margin-left: 75%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-md-offset-12 {
+    margin-left: 100%; } }
+
+@media (min-width: 1200px) {
+  /* line 26, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-1 {
+    width: 8.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-2 {
+    width: 16.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-3 {
+    width: 25%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-4 {
+    width: 33.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-5 {
+    width: 41.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-6 {
+    width: 50%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-7 {
+    width: 58.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-8 {
+    width: 66.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-9 {
+    width: 75%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-10 {
+    width: 83.33333%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-11 {
+    width: 91.66667%; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-12 {
+    width: 100%; }
+  /* line 54, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-0 {
+    right: auto; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-1 {
+    right: 8.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-2 {
+    right: 16.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-3 {
+    right: 25%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-4 {
+    right: 33.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-5 {
+    right: 41.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-6 {
+    right: 50%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-7 {
+    right: 58.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-8 {
+    right: 66.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-9 {
+    right: 75%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-10 {
+    right: 83.33333%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-11 {
+    right: 91.66667%; }
+  /* line 49, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-pull-12 {
+    right: 100%; }
+  /* line 44, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-0 {
+    left: auto; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-1 {
+    left: 8.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-2 {
+    left: 16.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-3 {
+    left: 25%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-4 {
+    left: 33.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-5 {
+    left: 41.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-6 {
+    left: 50%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-7 {
+    left: 58.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-8 {
+    left: 66.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-9 {
+    left: 75%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-10 {
+    left: 83.33333%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-11 {
+    left: 91.66667%; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-push-12 {
+    left: 100%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-0 {
+    margin-left: 0%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-1 {
+    margin-left: 8.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-2 {
+    margin-left: 16.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-3 {
+    margin-left: 25%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-4 {
+    margin-left: 33.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-5 {
+    margin-left: 41.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-6 {
+    margin-left: 50%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-7 {
+    margin-left: 58.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-8 {
+    margin-left: 66.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-9 {
+    margin-left: 75%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-10 {
+    margin-left: 83.33333%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-11 {
+    margin-left: 91.66667%; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_grid-framework.scss */
+  .col-lg-offset-12 {
+    margin-left: 100%; } }
+
+/* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  min-width: 0; }
+
+/* line 20, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: inherit;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5; }
+
+/* line 32, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: bold; }
+
+/* line 47, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+input[type="search"] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 53, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  line-height: normal; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+input[type="file"] {
+  display: block; }
+
+/* line 64, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+input[type="range"] {
+  display: block;
+  width: 100%; }
+
+/* line 71, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+select[multiple],
+select[size] {
+  height: auto; }
+
+/* line 78, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+
+/* line 83, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+output {
+  display: block;
+  padding-top: 7px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555; }
+
+/* line 114, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #555555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; }
+  /* line 57, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+  .form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6); }
+  /* line 103, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_vendor-prefixes.scss */
+  .form-control::-moz-placeholder {
+    color: #999;
+    opacity: 1; }
+  /* line 107, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_vendor-prefixes.scss */
+  .form-control:-ms-input-placeholder {
+    color: #999; }
+  /* line 108, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_vendor-prefixes.scss */
+  .form-control::-webkit-input-placeholder {
+    color: #999; }
+  /* line 142, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-control[disabled],
+  .form-control[readonly],
+  fieldset[disabled] .form-control {
+    background-color: #eeeeee;
+    opacity: 1; }
+  /* line 148, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-control[disabled],
+  fieldset[disabled] .form-control {
+    cursor: not-allowed; }
+
+/* line 156, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+textarea.form-control {
+  height: auto; }
+
+/* line 168, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 187, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  input[type="date"].form-control,
+  input[type="time"].form-control,
+  input[type="datetime-local"].form-control,
+  input[type="month"].form-control {
+    line-height: 34px; }
+  /* line 192, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  input[type="date"].input-sm,
+  .input-group-sm > input[type="date"].form-control,
+  .input-group-sm > input[type="date"].input-group-addon,
+  .input-group-sm > .input-group-btn > input[type="date"].btn,
+  .input-group-sm input[type="date"],
+  input[type="time"].input-sm,
+  .input-group-sm > input[type="time"].form-control,
+  .input-group-sm > input[type="time"].input-group-addon,
+  .input-group-sm > .input-group-btn > input[type="time"].btn,
+  .input-group-sm input[type="time"],
+  input[type="datetime-local"].input-sm,
+  .input-group-sm > input[type="datetime-local"].form-control,
+  .input-group-sm > input[type="datetime-local"].input-group-addon,
+  .input-group-sm > .input-group-btn > input[type="datetime-local"].btn,
+  .input-group-sm input[type="datetime-local"],
+  input[type="month"].input-sm,
+  .input-group-sm > input[type="month"].form-control,
+  .input-group-sm > input[type="month"].input-group-addon,
+  .input-group-sm > .input-group-btn > input[type="month"].btn,
+  .input-group-sm input[type="month"] {
+    line-height: 30px; }
+  /* line 197, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  input[type="date"].input-lg,
+  .input-group-lg > input[type="date"].form-control,
+  .input-group-lg > input[type="date"].input-group-addon,
+  .input-group-lg > .input-group-btn > input[type="date"].btn,
+  .input-group-lg input[type="date"],
+  input[type="time"].input-lg,
+  .input-group-lg > input[type="time"].form-control,
+  .input-group-lg > input[type="time"].input-group-addon,
+  .input-group-lg > .input-group-btn > input[type="time"].btn,
+  .input-group-lg input[type="time"],
+  input[type="datetime-local"].input-lg,
+  .input-group-lg > input[type="datetime-local"].form-control,
+  .input-group-lg > input[type="datetime-local"].input-group-addon,
+  .input-group-lg > .input-group-btn > input[type="datetime-local"].btn,
+  .input-group-lg input[type="datetime-local"],
+  input[type="month"].input-lg,
+  .input-group-lg > input[type="month"].form-control,
+  .input-group-lg > input[type="month"].input-group-addon,
+  .input-group-lg > .input-group-btn > input[type="month"].btn,
+  .input-group-lg input[type="month"] {
+    line-height: 46px; } }
+
+/* line 209, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group {
+  margin-bottom: 15px; }
+
+/* line 219, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  /* line 225, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .radio label,
+  .checkbox label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: pointer; }
+
+/* line 236, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  position: absolute;
+  margin-left: -20px;
+  margin-top: 4px \9; }
+
+/* line 243, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.radio + .radio,
+.checkbox + .checkbox {
+  margin-top: -5px; }
+
+/* line 249, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.radio-inline,
+.checkbox-inline {
+  position: relative;
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 0;
+  vertical-align: middle;
+  font-weight: normal;
+  cursor: pointer; }
+
+/* line 259, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.radio-inline + .radio-inline,
+.checkbox-inline + .checkbox-inline {
+  margin-top: 0;
+  margin-left: 10px; }
+
+/* line 272, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+input[type="radio"][disabled],
+input[type="radio"].disabled,
+fieldset[disabled] input[type="radio"],
+input[type="checkbox"][disabled],
+input[type="checkbox"].disabled,
+fieldset[disabled] input[type="checkbox"] {
+  cursor: not-allowed; }
+
+/* line 280, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.radio-inline.disabled,
+fieldset[disabled] .radio-inline,
+.checkbox-inline.disabled,
+fieldset[disabled] .checkbox-inline {
+  cursor: not-allowed; }
+
+/* line 289, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.radio.disabled label,
+fieldset[disabled] .radio label,
+.checkbox.disabled label,
+fieldset[disabled] .checkbox label {
+  cursor: not-allowed; }
+
+/* line 301, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-control-static {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+  min-height: 34px; }
+  /* line 310, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-control-static.input-lg,
+  .input-group-lg > .form-control-static.form-control,
+  .input-group-lg > .form-control-static.input-group-addon,
+  .input-group-lg > .input-group-btn > .form-control-static.btn,
+  .form-control-static.input-sm, .input-group-sm > .form-control-static.form-control,
+  .input-group-sm > .form-control-static.input-group-addon,
+  .input-group-sm > .input-group-btn > .form-control-static.btn {
+    padding-left: 0;
+    padding-right: 0; }
+
+/* line 70, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.input-sm, .input-group-sm > .form-control,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .btn {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/* line 77, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+select.input-sm, .input-group-sm > select.form-control,
+.input-group-sm > select.input-group-addon,
+.input-group-sm > .input-group-btn > select.btn {
+  height: 30px;
+  line-height: 30px; }
+
+/* line 82, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+textarea.input-sm,
+.input-group-sm > textarea.form-control,
+.input-group-sm > textarea.input-group-addon,
+.input-group-sm > .input-group-btn > textarea.btn,
+select[multiple].input-sm, .input-group-sm > select[multiple].form-control,
+.input-group-sm > select[multiple].input-group-addon,
+.input-group-sm > .input-group-btn > select[multiple].btn {
+  height: auto; }
+
+/* line 327, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group-sm .form-control {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/* line 334, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group-sm select.form-control {
+  height: 30px;
+  line-height: 30px; }
+
+/* line 339, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group-sm textarea.form-control,
+.form-group-sm select[multiple].form-control {
+  height: auto; }
+
+/* line 342, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group-sm .form-control-static {
+  height: 30px;
+  min-height: 32px;
+  padding: 6px 10px;
+  font-size: 12px;
+  line-height: 1.5; }
+
+/* line 70, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.input-lg, .input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33333;
+  border-radius: 6px; }
+
+/* line 77, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+select.input-lg, .input-group-lg > select.form-control,
+.input-group-lg > select.input-group-addon,
+.input-group-lg > .input-group-btn > select.btn {
+  height: 46px;
+  line-height: 46px; }
+
+/* line 82, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+textarea.input-lg,
+.input-group-lg > textarea.form-control,
+.input-group-lg > textarea.input-group-addon,
+.input-group-lg > .input-group-btn > textarea.btn,
+select[multiple].input-lg, .input-group-lg > select[multiple].form-control,
+.input-group-lg > select[multiple].input-group-addon,
+.input-group-lg > .input-group-btn > select[multiple].btn {
+  height: auto; }
+
+/* line 353, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group-lg .form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33333;
+  border-radius: 6px; }
+
+/* line 360, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group-lg select.form-control {
+  height: 46px;
+  line-height: 46px; }
+
+/* line 365, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group-lg textarea.form-control,
+.form-group-lg select[multiple].form-control {
+  height: auto; }
+
+/* line 368, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-group-lg .form-control-static {
+  height: 46px;
+  min-height: 38px;
+  padding: 11px 16px;
+  font-size: 18px;
+  line-height: 1.33333; }
+
+/* line 382, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.has-feedback {
+  position: relative; }
+  /* line 387, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .has-feedback .form-control {
+    padding-right: 42.5px; }
+
+/* line 392, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-control-feedback {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  pointer-events: none; }
+
+/* line 406, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.input-lg + .form-control-feedback,
+.input-group-lg > .form-control + .form-control-feedback,
+.input-group-lg > .input-group-addon + .form-control-feedback,
+.input-group-lg > .input-group-btn > .btn + .form-control-feedback,
+.input-group-lg + .form-control-feedback,
+.form-group-lg .form-control + .form-control-feedback {
+  width: 46px;
+  height: 46px;
+  line-height: 46px; }
+
+/* line 413, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.input-sm + .form-control-feedback,
+.input-group-sm > .form-control + .form-control-feedback,
+.input-group-sm > .input-group-addon + .form-control-feedback,
+.input-group-sm > .input-group-btn > .btn + .form-control-feedback,
+.input-group-sm + .form-control-feedback,
+.form-group-sm .form-control + .form-control-feedback {
+  width: 30px;
+  height: 30px;
+  line-height: 30px; }
+
+/* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+  color: #3c763d; }
+
+/* line 21, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+  .has-success .form-control:focus {
+    border-color: #2b542c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #67b168; }
+
+/* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-success .input-group-addon {
+  color: #3c763d;
+  border-color: #3c763d;
+  background-color: #dff0d8; }
+
+/* line 37, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-success .form-control-feedback {
+  color: #3c763d; }
+
+/* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-warning .help-block,
+.has-warning .control-label,
+.has-warning .radio,
+.has-warning .checkbox,
+.has-warning .radio-inline,
+.has-warning .checkbox-inline,
+.has-warning.radio label,
+.has-warning.checkbox label,
+.has-warning.radio-inline label,
+.has-warning.checkbox-inline label {
+  color: #8a6d3b; }
+
+/* line 21, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-warning .form-control {
+  border-color: #8a6d3b;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+  .has-warning .form-control:focus {
+    border-color: #66512c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #c0a16b; }
+
+/* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-warning .input-group-addon {
+  color: #8a6d3b;
+  border-color: #8a6d3b;
+  background-color: #fcf8e3; }
+
+/* line 37, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-warning .form-control-feedback {
+  color: #8a6d3b; }
+
+/* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+  color: #a94442; }
+
+/* line 21, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075); }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+  .has-error .form-control:focus {
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483; }
+
+/* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-error .input-group-addon {
+  color: #a94442;
+  border-color: #a94442;
+  background-color: #f2dede; }
+
+/* line 37, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_forms.scss */
+.has-error .form-control-feedback {
+  color: #a94442; }
+
+/* line 433, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.has-feedback label ~ .form-control-feedback {
+  top: 25px; }
+
+/* line 436, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0; }
+
+/* line 447, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373; }
+
+@media (min-width: 768px) {
+  /* line 472, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .form-group {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle; }
+  /* line 479, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle; }
+  /* line 486, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .form-control-static {
+    display: inline-block; }
+  /* line 490, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .input-group {
+    display: inline-table;
+    vertical-align: middle; }
+    /* line 496, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+    .form-inline .input-group .input-group-addon,
+    .form-inline .input-group .input-group-btn,
+    .form-inline .input-group .form-control {
+      width: auto; }
+  /* line 502, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .input-group > .form-control {
+    width: 100%; }
+  /* line 506, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .control-label {
+    margin-bottom: 0;
+    vertical-align: middle; }
+  /* line 514, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .radio,
+  .form-inline .checkbox {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle; }
+    /* line 520, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+    .form-inline .radio label,
+    .form-inline .checkbox label {
+      padding-left: 0; }
+  /* line 525, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .radio input[type="radio"],
+  .form-inline .checkbox input[type="checkbox"] {
+    position: relative;
+    margin-left: 0; }
+  /* line 531, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-inline .has-feedback .form-control-feedback {
+    top: 0; } }
+
+/* line 556, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-horizontal .radio,
+.form-horizontal .checkbox,
+.form-horizontal .radio-inline,
+.form-horizontal .checkbox-inline {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 7px; }
+
+/* line 564, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-horizontal .radio,
+.form-horizontal .checkbox {
+  min-height: 27px; }
+
+/* line 569, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-horizontal .form-group {
+  margin-left: -15px;
+  margin-right: -15px; }
+  /* line 15, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+  .form-horizontal .form-group:before,
+  .form-horizontal .form-group:after {
+    content: " ";
+    display: table; }
+  /* line 19, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+  .form-horizontal .form-group:after {
+    clear: both; }
+
+@media (min-width: 768px) {
+  /* line 576, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-horizontal .control-label {
+    text-align: right;
+    margin-bottom: 0;
+    padding-top: 7px; } }
+
+/* line 587, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+.form-horizontal .has-feedback .form-control-feedback {
+  right: 15px; }
+
+@media (min-width: 768px) {
+  /* line 597, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-horizontal .form-group-lg .control-label {
+    padding-top: 14.33333px;
+    font-size: 18px; } }
+
+@media (min-width: 768px) {
+  /* line 605, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_forms.scss */
+  .form-horizontal .form-group-sm .control-label {
+    padding-top: 6px;
+    font-size: 12px; } }
+
+/* line 9, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 0px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 6px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  /* line 27, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+  .btn:focus,
+  .btn.focus,
+  .btn:active:focus,
+  .btn:active.focus,
+  .btn.active:focus,
+  .btn.active.focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px; }
+  /* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+  .btn:hover,
+  .btn:focus,
+  .btn.focus {
+    color: #333;
+    text-decoration: none; }
+  /* line 40, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+  .btn:active,
+  .btn.active {
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+  /* line 48, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+  .btn.disabled,
+  .btn[disabled],
+  fieldset[disabled] .btn {
+    cursor: not-allowed;
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+/* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+a.btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none; }
+
+/* line 68, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc; }
+  /* line 12, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-default:focus,
+  .btn-default.focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c; }
+  /* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad; }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-default:active,
+  .btn-default.active,
+  .open > .btn-default.dropdown-toggle {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad; }
+    /* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+    .btn-default:active:hover,
+    .btn-default:active:focus,
+    .btn-default:active.focus,
+    .btn-default.active:hover,
+    .btn-default.active:focus,
+    .btn-default.active.focus,
+    .open > .btn-default.dropdown-toggle:hover,
+    .open > .btn-default.dropdown-toggle:focus,
+    .open > .btn-default.dropdown-toggle.focus {
+      color: #333;
+      background-color: #d4d4d4;
+      border-color: #8c8c8c; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-default:active,
+  .btn-default.active,
+  .open > .btn-default.dropdown-toggle {
+    background-image: none; }
+  /* line 50, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-default.disabled,
+  .btn-default.disabled:hover,
+  .btn-default.disabled:focus,
+  .btn-default.disabled.focus,
+  .btn-default.disabled:active,
+  .btn-default.disabled.active,
+  .btn-default[disabled],
+  .btn-default[disabled]:hover,
+  .btn-default[disabled]:focus,
+  .btn-default[disabled].focus,
+  .btn-default[disabled]:active,
+  .btn-default[disabled].active,
+  fieldset[disabled] .btn-default,
+  fieldset[disabled] .btn-default:hover,
+  fieldset[disabled] .btn-default:focus,
+  fieldset[disabled] .btn-default.focus,
+  fieldset[disabled] .btn-default:active,
+  fieldset[disabled] .btn-default.active {
+    background-color: #fff;
+    border-color: #ccc; }
+  /* line 56, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-default .badge {
+    color: #fff;
+    background-color: #333; }
+
+/* line 71, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-primary {
+  color: #fff;
+  background-color: #008fdd;
+  border-color: #007ec4; }
+  /* line 12, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-primary:focus,
+  .btn-primary.focus {
+    color: #fff;
+    background-color: #006eaa;
+    border-color: #002c44; }
+  /* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #006eaa;
+    border-color: #005786; }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #006eaa;
+    border-color: #005786; }
+    /* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+    .btn-primary:active:hover,
+    .btn-primary:active:focus,
+    .btn-primary:active.focus,
+    .btn-primary.active:hover,
+    .btn-primary.active:focus,
+    .btn-primary.active.focus,
+    .open > .btn-primary.dropdown-toggle:hover,
+    .open > .btn-primary.dropdown-toggle:focus,
+    .open > .btn-primary.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #005786;
+      border-color: #002c44; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-primary:active,
+  .btn-primary.active,
+  .open > .btn-primary.dropdown-toggle {
+    background-image: none; }
+  /* line 50, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-primary.disabled,
+  .btn-primary.disabled:hover,
+  .btn-primary.disabled:focus,
+  .btn-primary.disabled.focus,
+  .btn-primary.disabled:active,
+  .btn-primary.disabled.active,
+  .btn-primary[disabled],
+  .btn-primary[disabled]:hover,
+  .btn-primary[disabled]:focus,
+  .btn-primary[disabled].focus,
+  .btn-primary[disabled]:active,
+  .btn-primary[disabled].active,
+  fieldset[disabled] .btn-primary,
+  fieldset[disabled] .btn-primary:hover,
+  fieldset[disabled] .btn-primary:focus,
+  fieldset[disabled] .btn-primary.focus,
+  fieldset[disabled] .btn-primary:active,
+  fieldset[disabled] .btn-primary.active {
+    background-color: #008fdd;
+    border-color: #007ec4; }
+  /* line 56, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-primary .badge {
+    color: #008fdd;
+    background-color: #fff; }
+
+/* line 75, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-success {
+  color: #fff;
+  background-color: #7eb73d;
+  border-color: #71a437; }
+  /* line 12, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-success:focus,
+  .btn-success.focus {
+    color: #fff;
+    background-color: #649130;
+    border-color: #2f4417; }
+  /* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-success:hover {
+    color: #fff;
+    background-color: #649130;
+    border-color: #517627; }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-success:active,
+  .btn-success.active,
+  .open > .btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #649130;
+    border-color: #517627; }
+    /* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+    .btn-success:active:hover,
+    .btn-success:active:focus,
+    .btn-success:active.focus,
+    .btn-success.active:hover,
+    .btn-success.active:focus,
+    .btn-success.active.focus,
+    .open > .btn-success.dropdown-toggle:hover,
+    .open > .btn-success.dropdown-toggle:focus,
+    .open > .btn-success.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #517627;
+      border-color: #2f4417; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-success:active,
+  .btn-success.active,
+  .open > .btn-success.dropdown-toggle {
+    background-image: none; }
+  /* line 50, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-success.disabled,
+  .btn-success.disabled:hover,
+  .btn-success.disabled:focus,
+  .btn-success.disabled.focus,
+  .btn-success.disabled:active,
+  .btn-success.disabled.active,
+  .btn-success[disabled],
+  .btn-success[disabled]:hover,
+  .btn-success[disabled]:focus,
+  .btn-success[disabled].focus,
+  .btn-success[disabled]:active,
+  .btn-success[disabled].active,
+  fieldset[disabled] .btn-success,
+  fieldset[disabled] .btn-success:hover,
+  fieldset[disabled] .btn-success:focus,
+  fieldset[disabled] .btn-success.focus,
+  fieldset[disabled] .btn-success:active,
+  fieldset[disabled] .btn-success.active {
+    background-color: #7eb73d;
+    border-color: #71a437; }
+  /* line 56, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-success .badge {
+    color: #7eb73d;
+    background-color: #fff; }
+
+/* line 79, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-info {
+  color: #fff;
+  background-color: #008fdd;
+  border-color: #007ec4; }
+  /* line 12, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-info:focus,
+  .btn-info.focus {
+    color: #fff;
+    background-color: #006eaa;
+    border-color: #002c44; }
+  /* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-info:hover {
+    color: #fff;
+    background-color: #006eaa;
+    border-color: #005786; }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-info:active,
+  .btn-info.active,
+  .open > .btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #006eaa;
+    border-color: #005786; }
+    /* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+    .btn-info:active:hover,
+    .btn-info:active:focus,
+    .btn-info:active.focus,
+    .btn-info.active:hover,
+    .btn-info.active:focus,
+    .btn-info.active.focus,
+    .open > .btn-info.dropdown-toggle:hover,
+    .open > .btn-info.dropdown-toggle:focus,
+    .open > .btn-info.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #005786;
+      border-color: #002c44; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-info:active,
+  .btn-info.active,
+  .open > .btn-info.dropdown-toggle {
+    background-image: none; }
+  /* line 50, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-info.disabled,
+  .btn-info.disabled:hover,
+  .btn-info.disabled:focus,
+  .btn-info.disabled.focus,
+  .btn-info.disabled:active,
+  .btn-info.disabled.active,
+  .btn-info[disabled],
+  .btn-info[disabled]:hover,
+  .btn-info[disabled]:focus,
+  .btn-info[disabled].focus,
+  .btn-info[disabled]:active,
+  .btn-info[disabled].active,
+  fieldset[disabled] .btn-info,
+  fieldset[disabled] .btn-info:hover,
+  fieldset[disabled] .btn-info:focus,
+  fieldset[disabled] .btn-info.focus,
+  fieldset[disabled] .btn-info:active,
+  fieldset[disabled] .btn-info.active {
+    background-color: #008fdd;
+    border-color: #007ec4; }
+  /* line 56, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-info .badge {
+    color: #008fdd;
+    background-color: #fff; }
+
+/* line 83, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236; }
+  /* line 12, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-warning:focus,
+  .btn-warning.focus {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #985f0d; }
+  /* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-warning:hover {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512; }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-warning:active,
+  .btn-warning.active,
+  .open > .btn-warning.dropdown-toggle {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512; }
+    /* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+    .btn-warning:active:hover,
+    .btn-warning:active:focus,
+    .btn-warning:active.focus,
+    .btn-warning.active:hover,
+    .btn-warning.active:focus,
+    .btn-warning.active.focus,
+    .open > .btn-warning.dropdown-toggle:hover,
+    .open > .btn-warning.dropdown-toggle:focus,
+    .open > .btn-warning.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #d58512;
+      border-color: #985f0d; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-warning:active,
+  .btn-warning.active,
+  .open > .btn-warning.dropdown-toggle {
+    background-image: none; }
+  /* line 50, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-warning.disabled,
+  .btn-warning.disabled:hover,
+  .btn-warning.disabled:focus,
+  .btn-warning.disabled.focus,
+  .btn-warning.disabled:active,
+  .btn-warning.disabled.active,
+  .btn-warning[disabled],
+  .btn-warning[disabled]:hover,
+  .btn-warning[disabled]:focus,
+  .btn-warning[disabled].focus,
+  .btn-warning[disabled]:active,
+  .btn-warning[disabled].active,
+  fieldset[disabled] .btn-warning,
+  fieldset[disabled] .btn-warning:hover,
+  fieldset[disabled] .btn-warning:focus,
+  fieldset[disabled] .btn-warning.focus,
+  fieldset[disabled] .btn-warning:active,
+  fieldset[disabled] .btn-warning.active {
+    background-color: #f0ad4e;
+    border-color: #eea236; }
+  /* line 56, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-warning .badge {
+    color: #f0ad4e;
+    background-color: #fff; }
+
+/* line 87, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a; }
+  /* line 12, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-danger:focus,
+  .btn-danger.focus {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #761c19; }
+  /* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-danger:hover {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925; }
+  /* line 24, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-danger:active,
+  .btn-danger.active,
+  .open > .btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925; }
+    /* line 31, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+    .btn-danger:active:hover,
+    .btn-danger:active:focus,
+    .btn-danger:active.focus,
+    .btn-danger.active:hover,
+    .btn-danger.active:focus,
+    .btn-danger.active.focus,
+    .open > .btn-danger.dropdown-toggle:hover,
+    .open > .btn-danger.dropdown-toggle:focus,
+    .open > .btn-danger.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #ac2925;
+      border-color: #761c19; }
+  /* line 39, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-danger:active,
+  .btn-danger.active,
+  .open > .btn-danger.dropdown-toggle {
+    background-image: none; }
+  /* line 50, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-danger.disabled,
+  .btn-danger.disabled:hover,
+  .btn-danger.disabled:focus,
+  .btn-danger.disabled.focus,
+  .btn-danger.disabled:active,
+  .btn-danger.disabled.active,
+  .btn-danger[disabled],
+  .btn-danger[disabled]:hover,
+  .btn-danger[disabled]:focus,
+  .btn-danger[disabled].focus,
+  .btn-danger[disabled]:active,
+  .btn-danger[disabled].active,
+  fieldset[disabled] .btn-danger,
+  fieldset[disabled] .btn-danger:hover,
+  fieldset[disabled] .btn-danger:focus,
+  fieldset[disabled] .btn-danger.focus,
+  fieldset[disabled] .btn-danger:active,
+  fieldset[disabled] .btn-danger.active {
+    background-color: #d9534f;
+    border-color: #d43f3a; }
+  /* line 56, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_buttons.scss */
+  .btn-danger .badge {
+    color: #d9534f;
+    background-color: #fff; }
+
+/* line 96, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-link {
+  color: #008fdd;
+  font-weight: normal;
+  border-radius: 0; }
+  /* line 105, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+  .btn-link,
+  .btn-link:active,
+  .btn-link.active,
+  .btn-link[disabled],
+  fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+  /* line 112, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+  .btn-link,
+  .btn-link:hover,
+  .btn-link:focus,
+  .btn-link:active {
+    border-color: transparent; }
+  /* line 116, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+  .btn-link:hover,
+  .btn-link:focus {
+    color: #005d91;
+    text-decoration: underline;
+    background-color: transparent; }
+  /* line 124, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+  .btn-link[disabled]:hover,
+  .btn-link[disabled]:focus,
+  fieldset[disabled] .btn-link:hover,
+  fieldset[disabled] .btn-link:focus {
+    color: #777777;
+    text-decoration: none; }
+
+/* line 135, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33333;
+  border-radius: 6px; }
+
+/* line 139, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/* line 143, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+
+/* line 151, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-block {
+  display: block;
+  width: 100%; }
+
+/* line 157, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+.btn-block + .btn-block {
+  margin-top: 5px; }
+
+/* line 165, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_buttons.scss */
+input[type="submit"].btn-block,
+input[type="reset"].btn-block,
+input[type="button"].btn-block {
+  width: 100%; }
+
+/* line 7, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group {
+  position: relative;
+  display: table;
+  border-collapse: separate; }
+  /* line 13, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group[class*="col-"] {
+    float: none;
+    padding-left: 0;
+    padding-right: 0; }
+  /* line 19, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0; }
+
+/* line 56, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+  display: table-cell; }
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group-addon:not(:first-child):not(:last-child),
+  .input-group-btn:not(:first-child):not(:last-child),
+  .input-group .form-control:not(:first-child):not(:last-child) {
+    border-radius: 0; }
+
+/* line 65, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group-addon,
+.input-group-btn {
+  width: 1%;
+  white-space: nowrap;
+  vertical-align: middle; }
+
+/* line 73, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group-addon {
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  border-radius: 6px; }
+  /* line 85, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group-addon.input-sm, .input-group-sm > .input-group-addon,
+  .input-group-sm > .input-group-btn > .input-group-addon.btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px; }
+  /* line 90, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group-addon.input-lg, .input-group-lg > .input-group-addon,
+  .input-group-lg > .input-group-btn > .input-group-addon.btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 6px; }
+  /* line 98, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group-addon input[type="radio"],
+  .input-group-addon input[type="checkbox"] {
+    margin-top: 0; }
+
+/* line 110, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .btn,
+.input-group-btn:first-child > .btn-group > .btn,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
+
+/* line 113, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group-addon:first-child {
+  border-right: 0; }
+
+/* line 122, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .btn,
+.input-group-btn:last-child > .btn-group > .btn,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child),
+.input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+
+/* line 125, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group-addon:last-child {
+  border-left: 0; }
+
+/* line 131, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+.input-group-btn {
+  position: relative;
+  font-size: 0;
+  white-space: nowrap; }
+  /* line 140, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group-btn > .btn {
+    position: relative; }
+    /* line 142, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+    .input-group-btn > .btn + .btn {
+      margin-left: -1px; }
+    /* line 148, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+    .input-group-btn > .btn:hover,
+    .input-group-btn > .btn:focus,
+    .input-group-btn > .btn:active {
+      z-index: 2; }
+  /* line 156, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group-btn:first-child > .btn,
+  .input-group-btn:first-child > .btn-group {
+    margin-right: -1px; }
+  /* line 162, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_input-groups.scss */
+  .input-group-btn:last-child > .btn,
+  .input-group-btn:last-child > .btn-group {
+    z-index: 2;
+    margin-left: -1px; }
+
+/* line 15, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table; }
+
+/* line 19, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_clearfix.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 12, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 15, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.pull-right {
+  float: right !important; }
+
+/* line 18, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.pull-left {
+  float: left !important; }
+
+/* line 27, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.hide {
+  display: none !important; }
+
+/* line 30, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.show {
+  display: block !important; }
+
+/* line 33, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.invisible {
+  visibility: hidden; }
+
+/* line 36, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+/* line 45, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.hidden {
+  display: none !important; }
+
+/* line 53, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_utilities.scss */
+.affix {
+  position: fixed; }
+
+@-ms-viewport {
+  width: device-width; }
+
+/* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+.visible-xs {
+  display: none !important; }
+
+/* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+.visible-sm {
+  display: none !important; }
+
+/* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+.visible-md {
+  display: none !important; }
+
+/* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+.visible-lg {
+  display: none !important; }
+
+/* line 47, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important; }
+
+@media (max-width: 767px) {
+  /* line 6, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-xs {
+    display: block !important; }
+  /* line 9, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-xs {
+    display: table !important; }
+  /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-xs {
+    display: table-row !important; }
+  /* line 11, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important; } }
+
+@media (max-width: 767px) {
+  /* line 54, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-xs-block {
+    display: block !important; } }
+
+@media (max-width: 767px) {
+  /* line 59, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-xs-inline {
+    display: inline !important; } }
+
+@media (max-width: 767px) {
+  /* line 64, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-xs-inline-block {
+    display: inline-block !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 6, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-sm {
+    display: block !important; }
+  /* line 9, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-sm {
+    display: table !important; }
+  /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-sm {
+    display: table-row !important; }
+  /* line 11, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 73, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-sm-block {
+    display: block !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 78, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-sm-inline {
+    display: inline !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 83, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-sm-inline-block {
+    display: inline-block !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 6, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-md {
+    display: block !important; }
+  /* line 9, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-md {
+    display: table !important; }
+  /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-md {
+    display: table-row !important; }
+  /* line 11, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 92, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-md-block {
+    display: block !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 97, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-md-inline {
+    display: inline !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 102, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-md-inline-block {
+    display: inline-block !important; } }
+
+@media (min-width: 1200px) {
+  /* line 6, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-lg {
+    display: block !important; }
+  /* line 9, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-lg {
+    display: table !important; }
+  /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-lg {
+    display: table-row !important; }
+  /* line 11, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important; } }
+
+@media (min-width: 1200px) {
+  /* line 111, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-lg-block {
+    display: block !important; } }
+
+@media (min-width: 1200px) {
+  /* line 116, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-lg-inline {
+    display: inline !important; } }
+
+@media (min-width: 1200px) {
+  /* line 121, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+  .visible-lg-inline-block {
+    display: inline-block !important; } }
+
+@media (max-width: 767px) {
+  /* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-xs {
+    display: none !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-sm {
+    display: none !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-md {
+    display: none !important; } }
+
+@media (min-width: 1200px) {
+  /* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-lg {
+    display: none !important; } }
+
+/* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+.visible-print {
+  display: none !important; }
+
+@media print {
+  /* line 6, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .visible-print {
+    display: block !important; }
+  /* line 9, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  table.visible-print {
+    display: table !important; }
+  /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  tr.visible-print {
+    display: table-row !important; }
+  /* line 11, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important; } }
+
+/* line 155, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+.visible-print-block {
+  display: none !important; }
+  @media print {
+    /* line 155, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+    .visible-print-block {
+      display: block !important; } }
+
+/* line 162, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+.visible-print-inline {
+  display: none !important; }
+  @media print {
+    /* line 162, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+    .visible-print-inline {
+      display: inline !important; } }
+
+/* line 169, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+.visible-print-inline-block {
+  display: none !important; }
+  @media print {
+    /* line 169, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/_responsive-utilities.scss */
+    .visible-print-inline-block {
+      display: inline-block !important; } }
+
+@media print {
+  /* line 16, /Users/monsieurmoia/Documents/Mall4G/build/sass/bootstrap/mixins/_responsive-visibility.scss */
+  .hidden-print {
+    display: none !important; } }
+
+/*!
+ * Runur Styles
+ */
+/*!
+ * Mall4G Transitions Styles
+ */
+/*
+Usage
+*/
+/*!
+ * Mall4G Gradients Styles
+ */
+/*
+ Usage
+ */
+/*!
+ * Custom Mixins Styles
+ */
+/*
+Mixin for including same drawings pattern
+*/
+/*!
+ * Mall4G Nav Styles
+ */
+/* line 5, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/nav.scss */
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 10px 0;
+  color: #fff; }
+  /* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/nav.scss */
+  nav .logo {
+    display: inline-block;
+    max-width: 160px; }
+    /* line 13, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/nav.scss */
+    nav .logo img, nav .logo span {
+      display: inline-block; }
+  /* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/nav.scss */
+  nav .nav-links {
+    display: inline-block; }
+  /* line 20, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/nav.scss */
+  nav a {
+    color: inherit; }
+
+/*!
+ * Mall4G Header Styles
+ */
+/* line 5, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/header.scss */
+header {
+  background-color: #008fdd;
+  padding: 100px 0;
+  color: #fff; }
+
+/*!
+ * Mall4G Footer Styles
+ */
+/*!
+Animate.css - http://daneden.me/animate
+Licensed under the MIT license - http://opensource.org/licenses/MIT
+
+Copyright (c) 2015 Daniel Eden
+*/
+/* line 10, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+/* line 17, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+/* line 22, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s; }
+
+/* line 28, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.animated.bounceIn,
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s; }
+
+/* line 34, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.animated.flipOutX,
+.animated.flipOutY {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s; }
+
+@-webkit-keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0); } }
+
+@keyframes bounce {
+  0%, 20%, 53%, 80%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  40%, 43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0); }
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0); } }
+
+/* line 95, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom; }
+
+@-webkit-keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1; }
+  25%, 75% {
+    opacity: 0; } }
+
+@keyframes flash {
+  0%, 50%, 100% {
+    opacity: 1; }
+  25%, 75% {
+    opacity: 0; } }
+
+/* line 122, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash; }
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+    transform: scale3d(1.05, 1.05, 1.05); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+/* line 163, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse; }
+
+@-webkit-keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1); }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1); }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1); }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1); }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes rubberBand {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1); }
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1); }
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1); }
+  65% {
+    -webkit-transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1); }
+  75% {
+    -webkit-transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+/* line 242, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand; }
+
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0); }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0); } }
+
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0); }
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0); } }
+
+/* line 281, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake; }
+
+@-webkit-keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg); }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg); }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg); }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg); }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg); } }
+
+@keyframes swing {
+  20% {
+    -webkit-transform: rotate3d(0, 0, 1, 15deg);
+    transform: rotate3d(0, 0, 1, 15deg); }
+  40% {
+    -webkit-transform: rotate3d(0, 0, 1, -10deg);
+    transform: rotate3d(0, 0, 1, -10deg); }
+  60% {
+    -webkit-transform: rotate3d(0, 0, 1, 5deg);
+    transform: rotate3d(0, 0, 1, 5deg); }
+  80% {
+    -webkit-transform: rotate3d(0, 0, 1, -5deg);
+    transform: rotate3d(0, 0, 1, -5deg); }
+  100% {
+    -webkit-transform: rotate3d(0, 0, 1, 0deg);
+    transform: rotate3d(0, 0, 1, 0deg); } }
+
+/* line 340, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.swing {
+  -webkit-transform-origin: top center;
+  transform-origin: top center;
+  -webkit-animation-name: swing;
+  animation-name: swing; }
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  10%, 20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); }
+  10%, 20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg); }
+  30%, 50%, 70%, 90% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg); }
+  40%, 60%, 80% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg); }
+  100% {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+/* line 401, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.tada {
+  -webkit-animation-name: tada;
+  animation-name: tada; }
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes wobble {
+  0% {
+    -webkit-transform: none;
+    transform: none; }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg); }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg); }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg); }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg); }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes wobble {
+  0% {
+    -webkit-transform: none;
+    transform: none; }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg); }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg); }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg); }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg); }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 482, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble; }
+
+@-webkit-keyframes jello {
+  11.1% {
+    -webkit-transform: none;
+    transform: none; }
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg); }
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg); }
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg); }
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg); }
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg); }
+  77.7% {
+    -webkit-transform: skewX(0.39062deg) skewY(0.39062deg);
+    transform: skewX(0.39062deg) skewY(0.39062deg); }
+  88.8% {
+    -webkit-transform: skewX(-0.19531deg) skewY(-0.19531deg);
+    transform: skewX(-0.19531deg) skewY(-0.19531deg); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes jello {
+  11.1% {
+    -webkit-transform: none;
+    transform: none; }
+  22.2% {
+    -webkit-transform: skewX(-12.5deg) skewY(-12.5deg);
+    transform: skewX(-12.5deg) skewY(-12.5deg); }
+  33.3% {
+    -webkit-transform: skewX(6.25deg) skewY(6.25deg);
+    transform: skewX(6.25deg) skewY(6.25deg); }
+  44.4% {
+    -webkit-transform: skewX(-3.125deg) skewY(-3.125deg);
+    transform: skewX(-3.125deg) skewY(-3.125deg); }
+  55.5% {
+    -webkit-transform: skewX(1.5625deg) skewY(1.5625deg);
+    transform: skewX(1.5625deg) skewY(1.5625deg); }
+  66.6% {
+    -webkit-transform: skewX(-0.78125deg) skewY(-0.78125deg);
+    transform: skewX(-0.78125deg) skewY(-0.78125deg); }
+  77.7% {
+    -webkit-transform: skewX(0.39062deg) skewY(0.39062deg);
+    transform: skewX(0.39062deg) skewY(0.39062deg); }
+  88.8% {
+    -webkit-transform: skewX(-0.19531deg) skewY(-0.19531deg);
+    transform: skewX(-0.19531deg) skewY(-0.19531deg); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 570, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.jello {
+  -webkit-animation-name: jello;
+  animation-name: jello;
+  -webkit-transform-origin: center;
+  transform-origin: center; }
+
+@-webkit-keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1); }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03); }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+@keyframes bounceIn {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1); }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03); }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97); }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1); } }
+
+/* line 658, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceIn {
+  -webkit-animation-name: bounceIn;
+  animation-name: bounceIn; }
+
+@-webkit-keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0); }
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes bounceInDown {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -3000px, 0);
+    transform: translate3d(0, -3000px, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 25px, 0);
+    transform: translate3d(0, 25px, 0); }
+  75% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, 5px, 0);
+    transform: translate3d(0, 5px, 0); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 731, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceInDown {
+  -webkit-animation-name: bounceInDown;
+  animation-name: bounceInDown; }
+
+@-webkit-keyframes bounceInLeft {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0); }
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0); }
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes bounceInLeft {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-3000px, 0, 0);
+    transform: translate3d(-3000px, 0, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(25px, 0, 0);
+    transform: translate3d(25px, 0, 0); }
+  75% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0); }
+  90% {
+    -webkit-transform: translate3d(5px, 0, 0);
+    transform: translate3d(5px, 0, 0); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 804, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceInLeft {
+  -webkit-animation-name: bounceInLeft;
+  animation-name: bounceInLeft; }
+
+@-webkit-keyframes bounceInRight {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0); }
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0); }
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes bounceInRight {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(3000px, 0, 0);
+    transform: translate3d(3000px, 0, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(-25px, 0, 0);
+    transform: translate3d(-25px, 0, 0); }
+  75% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0); }
+  90% {
+    -webkit-transform: translate3d(-5px, 0, 0);
+    transform: translate3d(-5px, 0, 0); }
+  100% {
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 877, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceInRight {
+  -webkit-animation-name: bounceInRight;
+  animation-name: bounceInRight; }
+
+@-webkit-keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0); }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0); }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes bounceInUp {
+  0%, 60%, 75%, 90%, 100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0); }
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0); }
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0); }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+/* line 950, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp; }
+
+@-webkit-keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9); }
+  50%, 55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); } }
+
+@keyframes bounceOut {
+  20% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9); }
+  50%, 55% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); } }
+
+/* line 993, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceOut {
+  -webkit-animation-name: bounceOut;
+  animation-name: bounceOut; }
+
+@-webkit-keyframes bounceOutDown {
+  20% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  40%, 45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0); } }
+
+@keyframes bounceOutDown {
+  20% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0); }
+  40%, 45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0); } }
+
+/* line 1036, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceOutDown {
+  -webkit-animation-name: bounceOutDown;
+  animation-name: bounceOutDown; }
+
+@-webkit-keyframes bounceOutLeft {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0); } }
+
+@keyframes bounceOutLeft {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(20px, 0, 0);
+    transform: translate3d(20px, 0, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0); } }
+
+/* line 1069, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceOutLeft {
+  -webkit-animation-name: bounceOutLeft;
+  animation-name: bounceOutLeft; }
+
+@-webkit-keyframes bounceOutRight {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0); } }
+
+@keyframes bounceOutRight {
+  20% {
+    opacity: 1;
+    -webkit-transform: translate3d(-20px, 0, 0);
+    transform: translate3d(-20px, 0, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0); } }
+
+/* line 1102, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceOutRight {
+  -webkit-animation-name: bounceOutRight;
+  animation-name: bounceOutRight; }
+
+@-webkit-keyframes bounceOutUp {
+  20% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0); }
+  40%, 45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0); } }
+
+@keyframes bounceOutUp {
+  20% {
+    -webkit-transform: translate3d(0, -10px, 0);
+    transform: translate3d(0, -10px, 0); }
+  40%, 45% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0); } }
+
+/* line 1145, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.bounceOutUp {
+  -webkit-animation-name: bounceOutUp;
+  animation-name: bounceOutUp; }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* line 1170, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn; }
+
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 1203, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown; }
+
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 1236, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeInDownBig {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig; }
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 1269, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft; }
+
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 1302, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeInLeftBig {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig; }
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 1335, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight; }
+
+@-webkit-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 1368, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeInRightBig {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig; }
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 1401, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp; }
+
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 1434, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeInUpBig {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig; }
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/* line 1459, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut; }
+
+@-webkit-keyframes fadeOutDown {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); } }
+
+@keyframes fadeOutDown {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); } }
+
+/* line 1488, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOutDown {
+  -webkit-animation-name: fadeOutDown;
+  animation-name: fadeOutDown; }
+
+@-webkit-keyframes fadeOutDownBig {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0); } }
+
+@keyframes fadeOutDownBig {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 2000px, 0);
+    transform: translate3d(0, 2000px, 0); } }
+
+/* line 1517, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOutDownBig {
+  -webkit-animation-name: fadeOutDownBig;
+  animation-name: fadeOutDownBig; }
+
+@-webkit-keyframes fadeOutLeft {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+@keyframes fadeOutLeft {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+/* line 1546, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOutLeft {
+  -webkit-animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft; }
+
+@-webkit-keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0); } }
+
+@keyframes fadeOutLeftBig {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(-2000px, 0, 0);
+    transform: translate3d(-2000px, 0, 0); } }
+
+/* line 1575, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOutLeftBig {
+  -webkit-animation-name: fadeOutLeftBig;
+  animation-name: fadeOutLeftBig; }
+
+@-webkit-keyframes fadeOutRight {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); } }
+
+@keyframes fadeOutRight {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); } }
+
+/* line 1604, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOutRight {
+  -webkit-animation-name: fadeOutRight;
+  animation-name: fadeOutRight; }
+
+@-webkit-keyframes fadeOutRightBig {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0); } }
+
+@keyframes fadeOutRightBig {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(2000px, 0, 0);
+    transform: translate3d(2000px, 0, 0); } }
+
+/* line 1633, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOutRightBig {
+  -webkit-animation-name: fadeOutRightBig;
+  animation-name: fadeOutRightBig; }
+
+@-webkit-keyframes fadeOutUp {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+
+@keyframes fadeOutUp {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+
+/* line 1662, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOutUp {
+  -webkit-animation-name: fadeOutUp;
+  animation-name: fadeOutUp; }
+
+@-webkit-keyframes fadeOutUpBig {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0); } }
+
+@keyframes fadeOutUpBig {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0); } }
+
+/* line 1691, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.fadeOutUpBig {
+  -webkit-animation-name: fadeOutUpBig;
+  animation-name: fadeOutUpBig; }
+
+@-webkit-keyframes flip {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  40% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  50% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  80% {
+    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+@keyframes flip {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  40% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out; }
+  50% {
+    -webkit-transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) translate3d(0, 0, 150px) rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  80% {
+    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; } }
+
+/* line 1770, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip; }
+
+@-webkit-keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0; }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1; }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg); }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px); } }
+
+@keyframes flipInX {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0; }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+    opacity: 1; }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -5deg); }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px); } }
+
+/* line 1843, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.flipInX {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInX;
+  animation-name: flipInX; }
+
+@-webkit-keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0; }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1; }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg); }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px); } }
+
+@keyframes flipInY {
+  0% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0; }
+  40% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -20deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in; }
+  60% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 10deg);
+    opacity: 1; }
+  80% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -5deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -5deg); }
+  100% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px); } }
+
+/* line 1916, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.flipInY {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipInY;
+  animation-name: flipInY; }
+
+@-webkit-keyframes flipOutX {
+  0% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px); }
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1; }
+  100% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0; } }
+
+@keyframes flipOutX {
+  0% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px); }
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+    opacity: 1; }
+  100% {
+    -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+    opacity: 0; } }
+
+/* line 1961, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.flipOutX {
+  -webkit-animation-name: flipOutX;
+  animation-name: flipOutX;
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important; }
+
+@-webkit-keyframes flipOutY {
+  0% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px); }
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    opacity: 1; }
+  100% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0; } }
+
+@keyframes flipOutY {
+  0% {
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px); }
+  30% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+    opacity: 1; }
+  100% {
+    -webkit-transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+    opacity: 0; } }
+
+/* line 2006, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.flipOutY {
+  -webkit-backface-visibility: visible !important;
+  backface-visibility: visible !important;
+  -webkit-animation-name: flipOutY;
+  animation-name: flipOutY; }
+
+@-webkit-keyframes lightSpeedIn {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0; }
+  60% {
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1; }
+  80% {
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+    opacity: 1; }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes lightSpeedIn {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+    transform: translate3d(100%, 0, 0) skewX(-30deg);
+    opacity: 0; }
+  60% {
+    -webkit-transform: skewX(20deg);
+    transform: skewX(20deg);
+    opacity: 1; }
+  80% {
+    -webkit-transform: skewX(-5deg);
+    transform: skewX(-5deg);
+    opacity: 1; }
+  100% {
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+/* line 2065, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.lightSpeedIn {
+  -webkit-animation-name: lightSpeedIn;
+  animation-name: lightSpeedIn;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out; }
+
+@-webkit-keyframes lightSpeedOut {
+  0% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0; } }
+
+@keyframes lightSpeedOut {
+  0% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0; } }
+
+/* line 2096, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.lightSpeedOut {
+  -webkit-animation-name: lightSpeedOut;
+  animation-name: lightSpeedOut;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in; }
+
+@-webkit-keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+/* line 2139, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateIn {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn; }
+
+@-webkit-keyframes rotateInDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+/* line 2180, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateInDownLeft {
+  -webkit-animation-name: rotateInDownLeft;
+  animation-name: rotateInDownLeft; }
+
+@-webkit-keyframes rotateInDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+/* line 2221, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateInDownRight {
+  -webkit-animation-name: rotateInDownRight;
+  animation-name: rotateInDownRight; }
+
+@-webkit-keyframes rotateInUpLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInUpLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+/* line 2262, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateInUpLeft {
+  -webkit-animation-name: rotateInUpLeft;
+  animation-name: rotateInUpLeft; }
+
+@-webkit-keyframes rotateInUpRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -90deg);
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+@keyframes rotateInUpRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -90deg);
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1; } }
+
+/* line 2303, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateInUpRight {
+  -webkit-animation-name: rotateInUpRight;
+  animation-name: rotateInUpRight; }
+
+@-webkit-keyframes rotateOut {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, 200deg);
+    transform: rotate3d(0, 0, 1, 200deg);
+    opacity: 0; } }
+
+@keyframes rotateOut {
+  0% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, 200deg);
+    transform: rotate3d(0, 0, 1, 200deg);
+    opacity: 0; } }
+
+/* line 2340, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateOut {
+  -webkit-animation-name: rotateOut;
+  animation-name: rotateOut; }
+
+@-webkit-keyframes rotateOutDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; } }
+
+@keyframes rotateOutDownLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg);
+    transform: rotate3d(0, 0, 1, 45deg);
+    opacity: 0; } }
+
+/* line 2377, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateOutDownLeft {
+  -webkit-animation-name: rotateOutDownLeft;
+  animation-name: rotateOutDownLeft; }
+
+@-webkit-keyframes rotateOutDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0; } }
+
+@keyframes rotateOutDownRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0; } }
+
+/* line 2414, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateOutDownRight {
+  -webkit-animation-name: rotateOutDownRight;
+  animation-name: rotateOutDownRight; }
+
+@-webkit-keyframes rotateOutUpLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0; } }
+
+@keyframes rotateOutUpLeft {
+  0% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: left bottom;
+    transform-origin: left bottom;
+    -webkit-transform: rotate3d(0, 0, 1, -45deg);
+    transform: rotate3d(0, 0, 1, -45deg);
+    opacity: 0; } }
+
+/* line 2451, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateOutUpLeft {
+  -webkit-animation-name: rotateOutUpLeft;
+  animation-name: rotateOutUpLeft; }
+
+@-webkit-keyframes rotateOutUpRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 0; } }
+
+@keyframes rotateOutUpRight {
+  0% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    opacity: 1; }
+  100% {
+    -webkit-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: rotate3d(0, 0, 1, 90deg);
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 0; } }
+
+/* line 2488, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rotateOutUpRight {
+  -webkit-animation-name: rotateOutUpRight;
+  animation-name: rotateOutUpRight; }
+
+@-webkit-keyframes hinge {
+  0% {
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; }
+  20%, 60% {
+    -webkit-transform: rotate3d(0, 0, 1, 80deg);
+    transform: rotate3d(0, 0, 1, 80deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; }
+  40%, 80% {
+    -webkit-transform: rotate3d(0, 0, 1, 60deg);
+    transform: rotate3d(0, 0, 1, 60deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    opacity: 1; }
+  100% {
+    -webkit-transform: translate3d(0, 700px, 0);
+    transform: translate3d(0, 700px, 0);
+    opacity: 0; } }
+
+@keyframes hinge {
+  0% {
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; }
+  20%, 60% {
+    -webkit-transform: rotate3d(0, 0, 1, 80deg);
+    transform: rotate3d(0, 0, 1, 80deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out; }
+  40%, 80% {
+    -webkit-transform: rotate3d(0, 0, 1, 60deg);
+    transform: rotate3d(0, 0, 1, 60deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    opacity: 1; }
+  100% {
+    -webkit-transform: translate3d(0, 700px, 0);
+    transform: translate3d(0, 700px, 0);
+    opacity: 0; } }
+
+/* line 2561, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.hinge {
+  -webkit-animation-name: hinge;
+  animation-name: hinge; }
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+@keyframes rollIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg);
+    transform: translate3d(-100%, 0, 0) rotate3d(0, 0, 1, -120deg); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+
+/* line 2596, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rollIn {
+  -webkit-animation-name: rollIn;
+  animation-name: rollIn; }
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+@-webkit-keyframes rollOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg); } }
+
+@keyframes rollOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
+    transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg); } }
+
+/* line 2627, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.rollOut {
+  -webkit-animation-name: rollOut;
+  animation-name: rollOut; }
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+
+/* line 2656, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn; }
+
+@-webkit-keyframes zoomInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+@keyframes zoomInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+/* line 2697, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomInDown {
+  -webkit-animation-name: zoomInDown;
+  animation-name: zoomInDown; }
+
+@-webkit-keyframes zoomInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+@keyframes zoomInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+/* line 2738, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomInLeft {
+  -webkit-animation-name: zoomInLeft;
+  animation-name: zoomInLeft; }
+
+@-webkit-keyframes zoomInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+@keyframes zoomInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-10px, 0, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+/* line 2779, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomInRight {
+  -webkit-animation-name: zoomInRight;
+  animation-name: zoomInRight; }
+
+@-webkit-keyframes zoomInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+@keyframes zoomInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 1000px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+/* line 2820, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomInUp {
+  -webkit-animation-name: zoomInUp;
+  animation-name: zoomInUp; }
+
+@-webkit-keyframes zoomOut {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  100% {
+    opacity: 0; } }
+
+@keyframes zoomOut {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3); }
+  100% {
+    opacity: 0; } }
+
+/* line 2857, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomOut {
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut; }
+
+@-webkit-keyframes zoomOutDown {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+@keyframes zoomOutDown {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, -60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, 2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+/* line 2902, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomOutDown {
+  -webkit-animation-name: zoomOutDown;
+  animation-name: zoomOutDown; }
+
+@-webkit-keyframes zoomOutLeft {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+    -webkit-transform-origin: left center;
+    transform-origin: left center; } }
+
+@keyframes zoomOutLeft {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(42px, 0, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(-2000px, 0, 0);
+    transform: scale(0.1) translate3d(-2000px, 0, 0);
+    -webkit-transform-origin: left center;
+    transform-origin: left center; } }
+
+/* line 2939, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomOutLeft {
+  -webkit-animation-name: zoomOutLeft;
+  animation-name: zoomOutLeft; }
+
+@-webkit-keyframes zoomOutRight {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+    transform: scale(0.1) translate3d(2000px, 0, 0);
+    -webkit-transform-origin: right center;
+    transform-origin: right center; } }
+
+@keyframes zoomOutRight {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(-42px, 0, 0); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(0.1) translate3d(2000px, 0, 0);
+    transform: scale(0.1) translate3d(2000px, 0, 0);
+    -webkit-transform-origin: right center;
+    transform-origin: right center; } }
+
+/* line 2976, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomOutRight {
+  -webkit-animation-name: zoomOutRight;
+  animation-name: zoomOutRight; }
+
+@-webkit-keyframes zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+@keyframes zoomOutUp {
+  40% {
+    opacity: 1;
+    -webkit-transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(0, 60px, 0);
+    -webkit-animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1); } }
+
+/* line 3021, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.zoomOutUp {
+  -webkit-animation-name: zoomOutUp;
+  animation-name: zoomOutUp; }
+
+@-webkit-keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInDown {
+  0% {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+/* line 3052, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown; }
+
+@-webkit-keyframes slideInLeft {
+  0% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInLeft {
+  0% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+/* line 3083, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft; }
+
+@-webkit-keyframes slideInRight {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInRight {
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+/* line 3114, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight; }
+
+@-webkit-keyframes slideInUp {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes slideInUp {
+  0% {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible; }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+
+/* line 3145, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp; }
+
+@-webkit-keyframes slideOutDown {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); } }
+
+@keyframes slideOutDown {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); } }
+
+/* line 3176, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.slideOutDown {
+  -webkit-animation-name: slideOutDown;
+  animation-name: slideOutDown; }
+
+@-webkit-keyframes slideOutLeft {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+@keyframes slideOutLeft {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); } }
+
+/* line 3207, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.slideOutLeft {
+  -webkit-animation-name: slideOutLeft;
+  animation-name: slideOutLeft; }
+
+@-webkit-keyframes slideOutRight {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); } }
+
+@keyframes slideOutRight {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0); } }
+
+/* line 3238, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.slideOutRight {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight; }
+
+@-webkit-keyframes slideOutUp {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+
+@keyframes slideOutUp {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  100% {
+    visibility: hidden;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); } }
+
+/* line 3269, /Users/monsieurmoia/Documents/Mall4G/build/sass/mall4g/animations.scss */
+.slideOutUp {
+  -webkit-animation-name: slideOutUp;
+  animation-name: slideOutUp; }

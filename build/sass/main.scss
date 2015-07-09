@@ -1,0 +1,20 @@
+/*!
+ * General Styles
+ */
+
+/*
+Custom Fonts
+*/
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&subset=latin,latin-ext);
+/*
+Css Declaration of new font,
+this will add the font to all the project
+*/
+$font-family-sans-serif:  'Lato', sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+
+/*
+Import Stylesheets
+*/
+@import "./bootstrap.scss";
+@import "./mall4g.scss";

@@ -1,0 +1,23 @@
+/*!
+ * Mall4G Nav Styles
+ */
+
+ nav {
+   position: fixed;
+   width: 100%;
+   padding: 10px 0;
+   color: #fff;
+   .logo {
+     display: inline-block;
+     max-width: 160px;
+     img , span{
+       display: inline-block;
+     }
+   }
+   .nav-links {
+     display: inline-block;
+   }
+    a {
+      color: inherit;
+    };
+ }
