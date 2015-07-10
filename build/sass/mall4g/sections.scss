@@ -1,3 +1,99 @@
 /*!
  * Mall4G Sections Styles
  */
+
+section {
+	padding: 25px 0;
+}
+
+
+.home {
+	section {
+		&.landing-section-1 {
+			@media screen and (max-width: $screen-sm-max) {
+				p {
+					text-align: left;
+				}
+				.btn {
+					display: none;
+				}
+			}
+		}
+		&.landing-section-2 {
+			.icon {
+				max-width: 50px;
+				margin-bottom: 20px;
+			}
+		}
+		&.landing-section-4 {
+			.icon {
+				margin-top: 15px;
+				margin-left: -50px;
+				@media screen and (max-width: $screen-sm-max) {
+					margin: -50px auto 0;
+					width: 25%;
+				}
+			}
+			@media screen and (max-width: $screen-sm-max) {
+				text-align: center;
+				p {
+					margin-bottom: 10px;
+				}
+				img {
+					margin: auto;
+				}
+			}
+
+		}
+		&.landing-section-6 {
+			padding: 50px 0;
+			.gif-link {
+				position: relative;
+				border-radius: 6px;
+				overflow: hidden;
+				display: inline-block;
+				-webkit-box-shadow: 0 2px 2px rgba(0,0,0,.2);
+				box-shadow: 0 2px 2px rgba(0,0,0,.2);
+				.link-text {
+					position: absolute;
+					top: 0;left: 0;
+					width: 100%;height: 100%;
+					vertical-align: middle;
+					text-align: center;
+					background-color: rgba(0,0,0,.3);
+					color: #fff;
+					opacity: .8;
+					-webkit-transition: all .2s ease;
+					-o-transition: all .2s ease;
+					transition: all .2s ease;
+					font-size: 1.6em;
+					text-shadow: 0 2px 2px rgba(0,0,0,.3);
+					line-height: 80px;
+					padding: 20px;
+				}
+				&:hover {
+					.link-text {
+						opacity: 1;
+						background-color: rgba(0,0,0,.6);
+					}
+				}
+				
+			}
+			@media screen and (max-width: $screen-sm-max) {
+				text-align: center;
+				
+				.icon-cart {
+					margin: 0 auto 20px;
+					width: 20%;
+					position: relative;
+					left: -10px;
+				}
+				.icon-google {
+					display: none;
+				}
+
+			}
+
+		}
+	}
+}

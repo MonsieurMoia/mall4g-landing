@@ -1,0 +1,49 @@
+/*!
+ * Mall4G Custom Classes
+ */
+
+ .divider-sm {
+	padding: 6px 0;
+ }
+ .divider-md {
+	padding: 12px 0;
+ }
+ .divider-lg {
+	padding: 20px 0;
+ }
+
+ .section-divider {
+ 	display: block;
+ 	border-bottom: 2px solid #ddd;
+ 	padding: 10px 0;
+ }
+
+ .no-margin {
+ 	margin: 0;
+ }
+
+ p {
+ 	&.line-height-2 {
+ 		line-height: 1.8;
+ 	}
+ }
+
+ .bg-muted {
+ 	background-color: $gray-lighter;
+ }
+
+ .bd-radius {
+ 	border-radius: $border-radius-large;
+ }
+
+ .padding-sm {padding: 5px;}
+ .padding-md {padding: 10px;}
+ .padding-lg {padding: 15px;}
+
+ .text-light {
+ 	font-weight: 300;
+ }
+
+ .op-0 {opacity: 0;}
+ .op-05 {opacity: .5;}
+ .op-1 {opacity: 1;}

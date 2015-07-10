@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.15;
   color: inherit; }
   /* line 17, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/_type.scss */
   h1 small,
@@ -417,7 +417,7 @@ h6, .h6 {
 
 /* line 47, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/_type.scss */
 h1, .h1 {
-  font-size: 42px; }
+  font-size: 37px; }
 
 /* line 48, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/_type.scss */
 h2, .h2 {
@@ -512,39 +512,39 @@ a.text-primary:focus {
 
 /* line 4, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_text-emphasis.scss */
 .text-success {
-  color: #3c763d; }
+  color: #8bc34a; }
 
 /* line 7, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_text-emphasis.scss */
 a.text-success:hover,
 a.text-success:focus {
-  color: #2b542c; }
+  color: #71a436; }
 
 /* line 4, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_text-emphasis.scss */
 .text-info {
-  color: #31708f; }
+  color: #0077b7; }
 
 /* line 7, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_text-emphasis.scss */
 a.text-info:hover,
 a.text-info:focus {
-  color: #245269; }
+  color: #005684; }
 
 /* line 4, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_text-emphasis.scss */
 .text-warning {
-  color: #8a6d3b; }
+  color: #894485; }
 
 /* line 7, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_text-emphasis.scss */
 a.text-warning:hover,
 a.text-warning:focus {
-  color: #66512c; }
+  color: #673364; }
 
 /* line 4, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_text-emphasis.scss */
 .text-danger {
-  color: #a94442; }
+  color: #d9534f; }
 
 /* line 7, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_text-emphasis.scss */
 a.text-danger:hover,
 a.text-danger:focus {
-  color: #843534; }
+  color: #c9302c; }
 
 /* line 119, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/_type.scss */
 .bg-primary {
@@ -561,39 +561,39 @@ a.bg-primary:focus {
 
 /* line 4, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_background-variant.scss */
 .bg-success {
-  background-color: #dff0d8; }
+  background-color: #8bc34a; }
 
 /* line 7, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_background-variant.scss */
 a.bg-success:hover,
 a.bg-success:focus {
-  background-color: #c1e2b3; }
+  background-color: #71a436; }
 
 /* line 4, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_background-variant.scss */
 .bg-info {
-  background-color: #d9edf7; }
+  background-color: #0077b7; }
 
 /* line 7, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_background-variant.scss */
 a.bg-info:hover,
 a.bg-info:focus {
-  background-color: #afd9ee; }
+  background-color: #005684; }
 
 /* line 4, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_background-variant.scss */
 .bg-warning {
-  background-color: #fcf8e3; }
+  background-color: #894485; }
 
 /* line 7, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_background-variant.scss */
 a.bg-warning:hover,
 a.bg-warning:focus {
-  background-color: #f7ecb5; }
+  background-color: #673364; }
 
 /* line 4, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_background-variant.scss */
 .bg-danger {
-  background-color: #f2dede; }
+  background-color: #d9534f; }
 
 /* line 7, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_background-variant.scss */
 a.bg-danger:hover,
 a.bg-danger:focus {
-  background-color: #e4b9b9; }
+  background-color: #c9302c; }
 
 /* line 138, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/_type.scss */
 .page-header {
@@ -2306,26 +2306,26 @@ fieldset[disabled] a.btn {
 /* line 75, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/_buttons.scss */
 .btn-success {
   color: #fff;
-  background-color: #7eb73d;
-  border-color: #71a437; }
+  background-color: #8bc34a;
+  border-color: #7eb73d; }
   /* line 12, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-success:focus,
   .btn-success.focus {
     color: #fff;
-    background-color: #649130;
-    border-color: #2f4417; }
+    background-color: #71a436;
+    border-color: #3c571d; }
   /* line 17, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-success:hover {
     color: #fff;
-    background-color: #649130;
-    border-color: #517627; }
+    background-color: #71a436;
+    border-color: #5f892d; }
   /* line 24, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-success:active,
   .btn-success.active,
   .open > .btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #649130;
-    border-color: #517627; }
+    background-color: #71a436;
+    border-color: #5f892d; }
     /* line 31, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
     .btn-success:active:hover,
     .btn-success:active:focus,
@@ -2337,8 +2337,8 @@ fieldset[disabled] a.btn {
     .open > .btn-success.dropdown-toggle:focus,
     .open > .btn-success.dropdown-toggle.focus {
       color: #fff;
-      background-color: #517627;
-      border-color: #2f4417; }
+      background-color: #5f892d;
+      border-color: #3c571d; }
   /* line 39, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-success:active,
   .btn-success.active,
@@ -2363,36 +2363,36 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-success.focus,
   fieldset[disabled] .btn-success:active,
   fieldset[disabled] .btn-success.active {
-    background-color: #7eb73d;
-    border-color: #71a437; }
+    background-color: #8bc34a;
+    border-color: #7eb73d; }
   /* line 56, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-success .badge {
-    color: #7eb73d;
+    color: #8bc34a;
     background-color: #fff; }
 
 /* line 79, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/_buttons.scss */
 .btn-info {
   color: #fff;
-  background-color: #0088d1;
-  border-color: #0077b7; }
+  background-color: #0077b7;
+  border-color: #00669e; }
   /* line 12, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-info:focus,
   .btn-info.focus {
     color: #fff;
-    background-color: #00679e;
-    border-color: #002438; }
+    background-color: #005684;
+    border-color: #00141e; }
   /* line 17, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-info:hover {
     color: #fff;
-    background-color: #00679e;
-    border-color: #00507a; }
+    background-color: #005684;
+    border-color: #003f60; }
   /* line 24, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-info:active,
   .btn-info.active,
   .open > .btn-info.dropdown-toggle {
     color: #fff;
-    background-color: #00679e;
-    border-color: #00507a; }
+    background-color: #005684;
+    border-color: #003f60; }
     /* line 31, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
     .btn-info:active:hover,
     .btn-info:active:focus,
@@ -2404,8 +2404,8 @@ fieldset[disabled] a.btn {
     .open > .btn-info.dropdown-toggle:focus,
     .open > .btn-info.dropdown-toggle.focus {
       color: #fff;
-      background-color: #00507a;
-      border-color: #002438; }
+      background-color: #003f60;
+      border-color: #00141e; }
   /* line 39, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-info:active,
   .btn-info.active,
@@ -2430,11 +2430,11 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-info.focus,
   fieldset[disabled] .btn-info:active,
   fieldset[disabled] .btn-info.active {
-    background-color: #0088d1;
-    border-color: #0077b7; }
+    background-color: #0077b7;
+    border-color: #00669e; }
   /* line 56, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/mixins/_buttons.scss */
   .btn-info .badge {
-    color: #0088d1;
+    color: #0077b7;
     background-color: #fff; }
 
 /* line 83, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/bootstrap/_buttons.scss */
@@ -3276,23 +3276,32 @@ Mixin for including same drawings pattern
  */
 /* line 5, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
 nav {
-  position: fixed;
-  width: 100%;
   padding: 10px 0;
-  color: #fff; }
-  /* line 10, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
+  color: #fff;
+  background-color: #008fdd; }
+  /* line 9, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
   nav .logo {
     display: inline-block;
-    max-width: 160px; }
+    max-width: 160px;
+    margin-right: 10px; }
     /* line 13, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
     nav .logo img, nav .logo span {
       display: inline-block; }
   /* line 17, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
   nav .nav-links {
     display: inline-block; }
-  /* line 20, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
+    @media screen and (max-width: 991px) {
+      /* line 17, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
+      nav .nav-links {
+        margin-top: 20px;
+        float: none !important; } }
+  /* line 24, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
   nav a {
     color: inherit; }
+  @media screen and (max-width: 991px) {
+    /* line 5, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/nav.scss */
+    nav {
+      text-align: center; } }
 
 /*!
  * Mall4G Header Styles
@@ -3300,17 +3309,156 @@ nav {
 /* line 5, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
 header {
   background-color: #008fdd;
-  padding: 100px 0;
+  padding: 50px 0 0;
   color: #fff;
-  height: 500px; }
-  /* line 10, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+  height: 440px; }
+  @media screen and (max-width: 991px) {
+    /* line 5, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+    header {
+      height: auto;
+      text-align: center;
+      padding: 10px 0; }
+      /* line 14, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+      header h1 {
+        font-size: 2em; } }
+  /* line 18, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
   header .header-phone {
     margin: auto;
     width: 80%; }
+    @media screen and (max-width: 991px) {
+      /* line 18, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+      header .header-phone {
+        display: none; } }
+  /* line 26, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+  header .header-detail .icon {
+    margin-top: 15px; }
+    @media screen and (max-width: 991px) {
+      /* line 26, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+      header .header-detail .icon {
+        text-align: center;
+        width: 50%; } }
+  /* line 33, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+  header .header-detail .paypal-type {
+    max-width: 100px;
+    margin-top: 8px; }
+  /* line 37, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+  header .header-detail.shipping {
+    margin-top: 5px; }
+    /* line 39, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+    header .header-detail.shipping .description {
+      margin-top: 10px; }
+  @media screen and (max-width: 991px) {
+    /* line 25, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/header.scss */
+    header .header-detail {
+      text-align: left; } }
+
+/*!
+ * Mall4G Sections Styles
+ */
+/* line 5, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+section {
+  padding: 25px 0; }
+
+@media screen and (max-width: 991px) {
+  /* line 14, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+  .home section.landing-section-1 p {
+    text-align: left; }
+  /* line 17, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+  .home section.landing-section-1 .btn {
+    display: none; } }
+
+/* line 23, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+.home section.landing-section-2 .icon {
+  max-width: 50px;
+  margin-bottom: 20px; }
+
+/* line 29, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+.home section.landing-section-4 .icon {
+  margin-top: 15px;
+  margin-left: -50px; }
+  @media screen and (max-width: 991px) {
+    /* line 29, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+    .home section.landing-section-4 .icon {
+      margin: -50px auto 0;
+      width: 25%; } }
+
+@media screen and (max-width: 991px) {
+  /* line 28, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+  .home section.landing-section-4 {
+    text-align: center; }
+    /* line 39, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+    .home section.landing-section-4 p {
+      margin-bottom: 10px; }
+    /* line 42, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+    .home section.landing-section-4 img {
+      margin: auto; } }
+
+/* line 48, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+.home section.landing-section-6 {
+  padding: 50px 0; }
+  /* line 50, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+  .home section.landing-section-6 .gif-link {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+    /* line 57, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+    .home section.landing-section-6 .gif-link .link-text {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      vertical-align: middle;
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.3);
+      color: #fff;
+      opacity: .8;
+      -webkit-transition: all 0.2s ease;
+      -o-transition: all 0.2s ease;
+      transition: all 0.2s ease;
+      font-size: 1.6em;
+      text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+      line-height: 80px;
+      padding: 20px; }
+    /* line 75, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+    .home section.landing-section-6 .gif-link:hover .link-text {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.6); }
+  @media screen and (max-width: 991px) {
+    /* line 48, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+    .home section.landing-section-6 {
+      text-align: center; }
+      /* line 85, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+      .home section.landing-section-6 .icon-cart {
+        margin: 0 auto 20px;
+        width: 20%;
+        position: relative;
+        left: -10px; }
+      /* line 91, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/sections.scss */
+      .home section.landing-section-6 .icon-google {
+        display: none; } }
 
 /*!
  * Mall4G Footer Styles
  */
+/* line 5, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/footer.scss */
+footer {
+  padding: 20px 0; }
+  /* line 8, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/footer.scss */
+  footer .social-link {
+    display: inline-block;
+    background-color: #fff;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    line-height: 25px;
+    border-radius: 50px;
+    margin: 0 4px;
+    vertical-align: middle; }
+
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -5726,6 +5874,71 @@ Copyright (c) 2015 Daniel Eden
 .btn.btn-offset-1 {
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); }
+
+/*!
+ * Mall4G Custom Classes
+ */
+/* line 5, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.divider-sm {
+  padding: 6px 0; }
+
+/* line 8, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.divider-md {
+  padding: 12px 0; }
+
+/* line 11, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.divider-lg {
+  padding: 20px 0; }
+
+/* line 15, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.section-divider {
+  display: block;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 0; }
+
+/* line 21, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.no-margin {
+  margin: 0; }
+
+/* line 26, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+p.line-height-2 {
+  line-height: 1.8; }
+
+/* line 31, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.bg-muted {
+  background-color: #eeeeee; }
+
+/* line 35, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.bd-radius {
+  border-radius: 6px; }
+
+/* line 39, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.padding-sm {
+  padding: 5px; }
+
+/* line 40, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.padding-md {
+  padding: 10px; }
+
+/* line 41, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.padding-lg {
+  padding: 15px; }
+
+/* line 43, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.text-light {
+  font-weight: 300; }
+
+/* line 47, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.op-0 {
+  opacity: 0; }
+
+/* line 48, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.op-05 {
+  opacity: .5; }
+
+/* line 49, C:/Users/Roberto/Documents/Mall4G/mall4g-landing/build/sass/mall4g/custom-classes.scss */
+.op-1 {
+  opacity: 1; }
 
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome

@@ -3,21 +3,29 @@
  */
 
  nav {
-   position: fixed;
-   width: 100%;
    padding: 10px 0;
    color: #fff;
+   background-color: $brand-primary;
    .logo {
      display: inline-block;
      max-width: 160px;
+     margin-right: 10px;
      img , span{
        display: inline-block;
      }
    }
    .nav-links {
      display: inline-block;
+     @media screen and (max-width: $screen-sm-max) {
+      margin-top: 20px;
+        float: none!important;
+      }
    }
     a {
       color: inherit;
     };
+
+  @media screen and (max-width: $screen-sm-max) {
+      text-align: center;
+  }
  }
